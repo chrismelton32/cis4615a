@@ -8,6 +8,8 @@ public class R02_XP00_J
 		deleteFile2();
 	}
 
+	// Rule 02. Expressions (EXP)
+	// XP00-J. Do not ignore values returned by methods
 	// Given the non-compliant code below:
 	public static void deleteFile1()
 	{
