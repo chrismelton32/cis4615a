@@ -12,7 +12,7 @@ public class R00_IDS03_J
 
 		// Rule 00. Input Validation and Data Sanitization (IDS)
 		// IDS03-J. Do not log unsanitized user input.
-		// Below is a non-compliant segment of code:
+		// Given the non-compliant code below:
 		if(loginSuccessful)
 		{
 			logger.severe("User login succeeded for: " + username);
